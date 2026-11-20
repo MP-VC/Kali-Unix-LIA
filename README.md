@@ -1,6 +1,9 @@
 # Kali-Unix-LIA
 ## What is Kali Linux
-Kali is a Linux distribution based from Debian. Because it is, it uses the same package manager (Advanced Package Tool, or APT). Unlike Debian, it is primary used to penetration test networks, find vulnerabilities and monitor incoming and outgoing traffic. Because of that, it is not recommended to use it as your daily driver.
+Kali is a Linux distribution based from Debian. Because it is, it uses the same package manager (Advanced Package Tool, or APT).
+Unlike Debian, it is primary used to penetration test networks, find vulnerabilities and monitor incoming and outgoing traffic.
+Some security tools, like network services, are disabled, and many amenities or programs, such as NodeJS, will be harder to install.
+Because of that, it is not recommended to use it as your daily driver. It is also important to not run random commands without properly understanding it, as it can pose serious consequences.
 
 Kali is recommended for system administrators, those who want to claim bug bounties and cybersecurity analysts.
 ## How to install
@@ -15,4 +18,5 @@ Kali is recommended for system administrators, those who want to claim bug bount
 ## Why chose Kali over other similar distributions
 - Kali has a lot of documentation and has a big community.
 - It has built a solid reputation.
-- Since it is based on Debian, it has less bloat and is stable
+- Since it is based on Debian, it has less bloat and is stable.
+- The preinstalled tools have been verified and will be very unlikely to cause errors.
